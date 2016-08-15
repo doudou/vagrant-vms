@@ -1,5 +1,12 @@
 Vagrant configuration to create libvirt-based VMs for flat fish front/back builds
 
+Configuration file
+==================
+A configuration file called config.yml is present in the repository's root
+folder. It contains the following configuration variables:
+
+ - `ubuntu_contry`: the contry code of the ubuntu archive mirror
+
 Vagrant, Chef and libvirt install
 ===========================
 
